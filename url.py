@@ -25,7 +25,7 @@ site_mappings = {
     '多多': 'duoduo',
     '蜡笔': 'labi',
     '至臻': 'zhizhen',
-    '木偶': 'muou',
+    '木偶': 'mogg',
     '六趣': 'liuqu',
     '虎斑': 'huban',
     '下饭': 'xiafan',
@@ -193,7 +193,7 @@ def main():
             
         mogg_url = get_mogg_url(existing_urls.get('mogg'))
         if mogg_url:
-            url_data['muou'] = mogg_url
+            url_data['mogg'] = mogg_url
 
         # 处理其他站点
         for site in api_data.get('sites', []):
