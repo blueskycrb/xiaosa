@@ -193,7 +193,7 @@ def main():
             
         mogg_url = get_mogg_url(existing_urls.get('mogg'))
         if mogg_url:
-            url_data['mogg'] = mogg_url
+            url_data['muou'] = mogg_url
 
         # 处理其他站点
         for site in api_data.get('sites', []):
